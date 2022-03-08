@@ -291,8 +291,8 @@
                 <property name="infinispan.client.hotrod.sasl_properties.javax.security.sasl.qop">auth</property>
                 <property name="infinispan.client.hotrod.sasl_mechanism">SCRAM-SHA-512</property>
                 <property name="infinispan.client.hotrod.auth_username">developer</property>
-                <property name="infinispan.client.hotrod.auth_server_name">eap-infinispan</property>
-                <property name="infinispan.client.hotrod.auth_password">Cx2ak@E9fGcaSfs4</property>
+                <property name="infinispan.client.hotrod.auth_server_name">http-sessions-infinispan</property>
+                <property name="infinispan.client.hotrod.auth_password">xdpULnEdoTBnGBfa</property>
                 <property name="infinispan.client.hotrod.use_ssl">false</property>
                 <property name="infinispan.client.hotrod.auth_realm">default</property>
                 <remote-clusters>
@@ -447,7 +447,7 @@
         <socket-binding name="txn-recovery-environment" port="4712"/>
         <socket-binding name="txn-status-manager" port="4713"/>
         <outbound-socket-binding name="remote-rhdg-server">
-            <remote-destination host="eap-infinispan.dgeap.svc.cluster.local" port="11222"/>
+            <remote-destination host="http-sessions-infinispan.parkers.svc.cluster.local" port="11222"/>
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
