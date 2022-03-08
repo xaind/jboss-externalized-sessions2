@@ -1,1 +1,1 @@
-$JBOSS_HOME/bin/jboss-cli.sh --file=$JBOSS_HOME/extensions/actions.cli
+/opt/eap/bin/jboss-cli.sh --file=/opt/eap/extensions/actions.cli
