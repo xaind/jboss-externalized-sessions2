@@ -1,1 +1,0 @@
-# jboss-externalized-sessions2
